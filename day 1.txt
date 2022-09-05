@@ -1,0 +1,246 @@
+//Q1
+      // System.out.println("Hello World. I am here");
+      
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello World. I am here");
+    }
+}
+
+       **********%&&%***********
+
+//Difference between print and println(new line)
+
+* Print can be used to print text on console and does not add new line
+* Println can be used to add new line after print on consol.
+
+
+ 
+    **********%&&%***********
+//Q2
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+        System.out.println("World.");
+        System.out.println("I");
+        System.out.println("am");
+        System.out.println("here");
+
+    }
+}
+
+
+**********%&&%***********
+//Q3.
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+       System.out.println("*****");
+    }
+}
+
+
+**********%&&%***********
+//Q4.
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+       System.out.println("*****");
+       System.out.println("*****");
+      System.out.println("*****");
+    }
+}
+
+
+**********%&&%***********
+//Q5.
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+       System.out.println("*****");
+        System.out.println("*");  
+        System.out.println("*");  
+        System.out.println("*");  
+        System.out.println("*****"); 
+    }
+}
+
+**********%&&%***********
+//Variables concept
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        String presidentName = "Darupadi Ma'am";
+        System.out.println(presidentName);
+
+    }
+}
+
+**********%&&%***********
+//Q6
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println(10+20);
+        System.out.println(10*20*30);
+        System.out.println(40-20);
+
+    }
+}
+
+**********%&&%***********
+//Q7
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+       System.out.println(20+30+50);
+        System.out.println(20*30*50);
+
+    }
+}
+
+**********%&&%***********
+//Q8
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+       System.out.println(25/10);
+
+    }
+}
+
+**********%&&%***********
+//Q9
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+          System.out.println(438%9);
+
+    }
+}
+
+**********%&&%***********
+//Q10
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+       int marks = 4596;
+        System.out.println(marks);
+        int cheating = 10;
+        System.out.println(cheating);
+
+    }
+}
+
+**********%&&%***********
+//Q11
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+          int xx = 100;
+        System.out.println(xx);
+
+    }
+}
+
+**********%&&%***********
+//Q12
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+          int yy = 235;
+        System.out.println(yy+10);
+
+    }
+}
+
+**********%&&%***********
+//Q13
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+          int x = 165;
+        int y = 84;
+        System.out.println(x+y);
+        System.out.println(x-y);
+        System.out.println(x*y);
+        System.out.println(x/y);
+
+
+    }
+}
+
+**********%&&%***********
+//Q14
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+          int a = 20;
+        int b = 30;
+        int c = 40;
+        System.out.println(a+b+c);
+
+    }
+}
+
+**********%&&%***********
+//Q9
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+          System.out.println(438%9);
+
+    }
+}
+
+**********%&&%***********
+//Q15
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+          System.out.println(num%10);
+
+    }
+}
+
+**********%&&%***********
+//Q16
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+          System.out.println(num/10);
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
