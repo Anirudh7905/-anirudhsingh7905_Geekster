@@ -1,0 +1,190 @@
+************%$%$***********
+//1) Take the diameter of a circle as input. Print the area of the circle as integer input.
+
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+         Scanner sc=new Scanner(System.in);
+        double pi=3.14,area;
+        System.out.println("Enter the radius:-");
+        int r=sc.nextInt();
+        area=pi * r * r;
+         System.out.println("Area of circle:-"+area);
+    }
+}
+
+************%$%$***********
+
+//2) Take the base and height of a triangle as input and store them in double variables x
+and y and print its area.
+
+
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+         Scanner sc=new Scanner(System.in);
+        double h,b,area;
+        System.out.println("Enter the radius:-");
+         b=sc.nextDouble();
+         h=sc.nextDouble();
+        area=(b*h)/2;
+         System.out.println("Area of Triangle:-"+area);
+    }
+}
+
+************%$%$***********
+
+//3) Take an input x, check if it is greater than 1000 or not. Print true or false.
+
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+         Scanner sc=new Scanner(System.in);
+        
+        System.out.println("Enter the radius:-");
+         int x=sc.nextInt();
+         if(x>=1000){
+             System.out.println("True");
+         }
+         else{
+             System.out.println("false");
+         }         
+    }
+}
+
+************%$%$***********
+
+//5) Find the answer of the following expressions
+
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+   int a = 7+3+4;
+   System.out.println(a);
+int b = 12 + 5 + 8;
+ System.out.println(b);
+  int  c= 13/5 + 18/8;
+  System.out.println(c);
+  double d= 12 + 5.0 + 2.76;
+  System.out.println(d);
+  double e= 12/3 + 13/2;
+  System.out.println(e);
+    double f=12/3 + 13.0/2;
+    System.out.println(f);
+    double g=14/2 + 15.0/4;
+    System.out.println(g);
+    double h= 13/2 % 5/3;
+    System.out.println();
+    double x= 17.0/2 % 16.0/4;
+ System.out.println(x);
+  }
+}
+
+************%$%$***********
+
+//6) Store these expressions inside a Boolean variable ans. Print their outputs true or
+false accordingly
+
+import java.util.Scanner;
+class HelloWorld{
+ public void main static(String args[ ]){
+   boolean a = 3 > 2;
+   System.out.println(a);
+   boolean b = 3 ≥ 3;
+   System.out.println(b);
+   boolean c= 4 + 3 > 9;
+   System.out.println(c);
+   boolean d = 10 + 8 > 10;
+   System.out.println(d);
+   boolean e = 12 != 10;
+   System.out.println(f);
+   boolean f= 13 == 13;
+   System.out.println(f);
+   boolean g = 14 != 14;
+   System.out.println(g);
+   boolean  h= 20 == 5*4;
+System.out.println(h);
+  boolean i = 30 != 3+4-10;
+  System.out.println(i);
+   boolean j = 20 == 41/2;
+  System.out.println(j);
+}
+}
+
+************%$%$***********
+
+
+
+// 7) Take marks of a student in five subjects as input in a double variable. Print the sumof total marks and also find the percentage of the student.
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+       double english, chemistry, computers, physics, maths; 
+	    double total, Percentage;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print(" Please Enter the Five Subjects Marks : ");
+		english = sc.nextDouble();	
+		chemistry = sc.nextDouble();	
+		computers = sc.nextDouble();	
+		physics = sc.nextDouble();	
+		maths = sc.nextDouble();	
+		
+		total = english + chemistry + computers + physics + maths;
+	    Percentage = (total / 500) * 100;
+	    
+	    System.out.println(" Total Marks =  " + total);
+	   
+	    System.out.println(" Marks Percentage =  " + Percentage);
+    }
+}
+
+
+************%$%$***********
+
+// 8) Take four integer inputs and check if the product of them is greater than 1000 ornot. Print true or false accordingly.
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        int a,b,c,d;
+        Scanner sc=new Scanner(System.in);
+        a=sc.nextInt();
+        b=sc.nextInt();
+        c=sc.nextInt();
+        d=sc.nextInt();
+        int multi=a*b*c*d;
+        System.out.println(multi);
+        if(multi>=1000){
+            System.out.println("True");
+            
+        }
+        else{
+            System.out.println("False");
+        }
+        
+    }
+}
+
+************%$%$***********
+
+// 9) Take an integer input and check if the number is divisible by 7 or not.
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        if(n%7==0){
+            System.out.println("It is divisible by 7:- "+n);
+        }
+        else
+        {
+            System.out.println("It is not divisible by 7:- "+n);
+        }
+    }
+}
